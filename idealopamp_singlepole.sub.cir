@@ -1,0 +1,21 @@
+Version 4
+SymbolType CELL
+LINE Normal -31 40 -31 -40
+LINE Normal 64 1 -31 40
+LINE Normal -31 -40 64 1
+WINDOW 0 0 -64 Bottom 2
+WINDOW 3 17 37 Top 2
+WINDOW 39 0 64 Top 2
+SYMATTR Value ideal
+SYMATTR SpiceLine Rin=1e9, Rout=1, A=1e9
+SYMATTR Prefix X
+SYMATTR ModelFile D:\a_unibo_courses\2-Analogue_Circuits\2025\project2\idealopamp.sub.txt
+PIN -32 -16 LEFT 8
+PINATTR PinName p
+PINATTR SpiceOrder 1
+PIN -32 16 LEFT 8
+PINATTR PinName m
+PINATTR SpiceOrder 2
+PIN 64 0 RIGHT 8
+PINATTR PinName out
+PINATTR SpiceOrder 3

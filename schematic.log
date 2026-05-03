@@ -1,0 +1,21 @@
+Version 4
+SymbolType CELL
+LINE Normal 48 0 -46 -47
+LINE Normal -47 47 48 0
+LINE Normal -46 -47 -47 47
+WINDOW 0 0 -40 Bottom 2
+WINDOW 3 0 40 Top 2
+WINDOW 39 0 64 Top 2
+SYMATTR Prefix X
+SYMATTR Value onepole
+SYMATTR ModelFile D:\a_unibo_courses\2-Analogue_Circuits\2025\project2\idealopamp_singlepole.sub.cir
+SYMATTR SpiceLine Rind=2e6, halfRinCm=1e9, Rout=75, TransC=0.19e-3, R1=1.323e9, C1=100p
+PIN -48 16 LEFT 8
+PINATTR PinName p
+PINATTR SpiceOrder 1
+PIN -48 -16 LEFT 8
+PINATTR PinName m
+PINATTR SpiceOrder 2
+PIN 48 0 RIGHT 8
+PINATTR PinName out
+PINATTR SpiceOrder 3
